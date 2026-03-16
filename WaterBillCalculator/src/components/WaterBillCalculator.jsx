@@ -45,7 +45,7 @@ function WaterBillCalculator() {
               type="number"
               min="0"
               value={manjeera}
-              placeholder="0"
+              placeholder="0liters"
               onChange={(e) => setManjeera(e.target.value)}
             />
             <span>L</span>
@@ -65,7 +65,7 @@ function WaterBillCalculator() {
               type="number"
               min="0"
               value={borewell}
-              placeholder="0"
+              placeholder="0liters"
               onChange={(e) => setBorewell(e.target.value)}
             />
             <span>L</span>
